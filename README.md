@@ -1,2 +1,0 @@
-# SWDRepos
-Repos for SWD
