@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RouletteGame\RouletteGame.System.csproj">
+      <Project>{90a78d50-eac2-49c6-a124-514c536cb9dc}</Project>
+      <Name>RouletteGame.System</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

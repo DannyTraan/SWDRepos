@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RouletteGame.Models;
+using RouletteGame.Interface;
 
 namespace RouletteGame.WPF
 {
@@ -23,6 +25,12 @@ namespace RouletteGame.WPF
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+
+        private void PlayButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            IStartGame play = new StartGame();
         }
     }
 }

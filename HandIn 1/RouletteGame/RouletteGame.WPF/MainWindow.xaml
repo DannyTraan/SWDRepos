@@ -26,7 +26,7 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Button x:Name = "playButton" Content = "Play" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name = "PlayButton" Content = "Play" Grid.Column="1" Grid.Row="1" Command="{Binding }"/>
 
         <Label x:Name="label1" Content="Select one mode to play"  Grid.Column="1" Grid.Row="2"/>
 
