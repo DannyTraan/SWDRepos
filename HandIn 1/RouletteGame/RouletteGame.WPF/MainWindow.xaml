@@ -7,7 +7,48 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Play" Name="PlayButton" HorizontalAlignment="Left" Margin="365,250,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name = "playButton" Content = "Play" Grid.Column="1" Grid.Row="1"/>
+
+        <Label x:Name="label1" Content="Select one mode to play"  Grid.Column="1" Grid.Row="2"/>
+
+        <StackPanel Grid.Column="1" Grid.Row="3">
+            <RadioButton GroupName="Options" Content="Red" IsChecked="True"/>
+            <RadioButton GroupName="Options" Content="Black" />
+            <RadioButton GroupName="Options" Content="Odd Number" />
+            <RadioButton GroupName="Options" Content="Even Number"/>
+            <ScrollViewer>
+                <RadioButton GroupName="Options" Content="Specific Number"/>
+            </ScrollViewer>
+        </StackPanel>
+
+        <Label x:Name="label2" Content="You chose number " Grid.Column="1" Grid.Row="4"/>
+        <TextBox Grid.Column="2" Grid.Row="4"/>
+        <Label x:Name="label3" Content="You chose color " Grid.Column="1" Grid.Row="5"/>
+        <TextBox Grid.Column="2" Grid.Row="5"/>
+
+
+
+
+
 
     </Grid>
 </Window>

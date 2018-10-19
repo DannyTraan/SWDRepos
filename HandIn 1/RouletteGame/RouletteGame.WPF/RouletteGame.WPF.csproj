@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CAA46373-8B33-487A-82BD-FD2722F1CBF9}</ProjectGuid>
+    <ProjectGuid>{B1B7ED50-CB5D-4E7A-AF91-8D3B862F7139}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>RouletteGame.WPF</RootNamespace>
     <AssemblyName>RouletteGame.WPF</AssemblyName>
@@ -53,7 +53,6 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -93,12 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RouletteGame\RouletteGame.System.csproj">
-      <Project>{90a78d50-eac2-49c6-a124-514c536cb9dc}</Project>
-      <Name>RouletteGame.System</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
