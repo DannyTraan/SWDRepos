@@ -8,11 +8,82 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="RouletteGame.Models.ChooseColor">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseColor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RouletteGame.Models.ChooseNumber">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RouletteGame.Models.ChooseOddNumbers">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseOddNumber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RouletteGame.Models.ChooseEvenNumbers">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ChooseEvenNumbers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RouletteGame.Models.WinOrLose">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WinOrLose.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="RouletteGame.Interface.IStartGame">
     <Position X="1.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>Interface\IStartGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RouletteGame.Interface.IChooseColor">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Interface\IChooseColor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RouletteGame.Interface.IChooseNumber">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IChooseNumber.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RouletteGame.Interface.IChooseOddNumbers">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IChooseOddNumbers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RouletteGame.Interface.IChooseEvenNumbers">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IChooseEvenNumbers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RouletteGame.Interface.IWinOrLose">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IWinOrLose.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

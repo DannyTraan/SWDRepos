@@ -41,9 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IWinOrLose.cs" />
+    <Compile Include="Models\ChooseEvenNumbers.cs" />
+    <Compile Include="Interface\IChooseEvenNumbers.cs" />
+    <Compile Include="Interface\IChooseOddNumbers.cs" />
+    <Compile Include="Models\ChooseOddNumber.cs" />
+    <Compile Include="Interface\IChooseNumber.cs" />
+    <Compile Include="Models\ChooseNumber.cs" />
+    <Compile Include="Interface\IChooseColor.cs" />
+    <Compile Include="Models\ChooseColor.cs" />
     <Compile Include="Interface\IStartGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\StartGame.cs" />
+    <Compile Include="Models\WinOrLose.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Roulette.cd" />
